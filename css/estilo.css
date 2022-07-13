@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'Clab-Italic';
+    src: url('../fonts/ClabPersonalUse-Italic.woff2') format('woff2'),
+        url('../fonts/ClabPersonalUse-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clab-Regular';
+    src: url('../fonts/ClabPersonalUse-Regular.woff2') format('woff2'),
+        url('../fonts/ClabPersonalUse-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clab-BoldItalic';
+    src: url('../fonts/ClabPersonalUse-BoldItalic.woff2') format('woff2'),
+        url('../fonts/ClabPersonalUse-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clab-Bold';
+    src: url('../fonts/ClabPersonalUse-Bold.woff2') format('woff2'),
+        url('../fonts/ClabPersonalUse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arvo-Bold';
+    src: url('../fonts/Arvo-Bold.woff2') format('woff2'),
+        url('../fonts/Arvo-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo.woff2') format('woff2'),
+        url('../fonts/Arvo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/*############## HEADER #############*/
+.masthead{        
+    background: url(../img/foto_fachada.jpg);
+    background-size: cover;
+    height: auto !important;
+    background-repeat: no-repeat;
+    min-height: 80vh !important;
+    background-position: center;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+
+#mainNav .navbar-toggler {
+    font-family: 'Arvo-Bold';
+}
+
+.logo-csc-header{
+    max-width: 75px;
+}
+
+.total-imagem-instagram { 
+    padding: 0px !important;
+}
+
+#instagram-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.total-imagem-instagram img { 
+    width: 100%;
+    padding: 5px
+}
+
+.nav-link{
+    font-family: 'Arvo' !important;
+    font-weight: 800;
+    color: #000 !important;
+}
+
+.detalhes-home{
+    font-family: 'Clab-Regular' !important;    
+}
+
+.total-header{
+    padding-top: 15px;
+}
+
+.total-texto-logo a{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.total-logo img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    max-width: 450px;
+    padding: 40px;
+}
+
+.botao-conhecer{
+    font-family: 'Arvo' !important;  
+    border-radius: 30px;
+    font-weight: 800;
+    padding: 10px 80px 10px 80px !important;  
+    text-transform: initial !important;  
+    font-size: 28px;
+}
+
+.botao-agendar-visita-saint-experience{
+    margin-top: 15px;
+    font-family: 'Arvo' !important;  
+    border-radius: 30px;
+    font-weight: 800;
+    padding: 8px 20px 6px 20px !important;  
+    text-transform: initial !important;  
+    font-size: 16px;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,1) !important;
+}
+
+.nav-item a{
+    color: #FFF !important
+}
+
+/*############## FOOTER #############*/
+.logo-csc-footer{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+.logo-programa-footer{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.total-logos-footer{
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+.signup-section {
+    background: #adadad !important;
+}
+
+/*############## FORMS #################*/
+
+.form-agendar input {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Arvo" !important;
+    font-size: 80%;
+    text-transform: initial;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+.form-agendar select {
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    height: auto;
+    font-family: "Arvo" !important;
+    font-size: 80%;
+    text-transform: initial;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+.texto-agendar-visita{
+    font-family: 'Clab-Bold' !important;   
+    margin-bottom: 25px;
+}
+
+/*############## HOME #################*/
+
+.total-detalhes-home h4{
+    font-family: 'Clab-Bold' !important;   
+}
+
+.total-detalhes-home p{
+    font-family: 'Clab-Regular' !important;       
+}
+
+.contact-section{
+    font-family: 'Clab-Regular' !important;       
+}
+
+.contact-section .card h4{
+    font-family: 'Clab-Bold' !important;       
+}
+
+.total-icones-funcionamento{
+    margin-top: 30px;
+}
+
+.total-icone-funcionamento{
+    width: calc(20% - 10px);
+    margin: 5px;
+}
+
+.total-icone-funcionamento h1{
+    width: 100%;
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Arvo-Bold';
+}
+
+.total-icone-funcionamento p{
+    margin-bottom: 5px;
+}
+
+.botao-agendar-visita-formulario{
+    font-family: 'Arvo-Bold' !important;  
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    text-transform: initial;
+    font-weight: 800;
+}
+
+.icone-funcionamento{
+    width: 50px;
+    margin: 10px;
+}
+
+.input-agendar-visita{
+    border-radius: 30px;
+}
+
+.imagem-saint-experience{
+    border-radius: 30px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;    
+}
+
+.imagem-garrafas{
+    width: 90%;
+    display: block;
+    margin: 0 auto;    
+}
+
+.imagem-cervejaria{
+    border-radius: 30px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.total-icones-funcionamento div{
+    text-align: center;
+    border: 3px solid #e89c4f;
+    border-radius: 15px;
+    line-height: 15px;
+    padding-top: 15px;
+}
+
+.total-icones-funcionamento div > i{
+    color: #e89c4f;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.iframe-maps{
+    width: 100%;
+    height: 450px;
+}
+
+/*######### RESPONSIVO ############*/
+
+@media (max-width: 768px) {
+    .total-icone-funcionamento{
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+
+    .total-header{
+        padding-top: 0px;
+    }
+
+    .total-logo img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .masthead{
+        padding-top: 100px;
+    }
+
+    .botao-conhecer{
+        margin-top: 50px !important;
+        font-size: 18px;
+    }
+
+    .imagem-logo-banner{
+        max-width: auto !important;
+        width: 100%;
+    }
+
+    .botao-agendar-visita-formulario{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .signup-section{
+        padding: 5rem 0px;
+    }
+
+    .projects-section{
+        padding: 5rem 0px;        
+    }
+
+    .total-icone-funcionamento h1{
+        font-size: 18px;
+    }
+
+    .projects-section .project-text{
+        padding: 1rem !important;    
+    }
+
+    .total-botao-agendar-header{
+        padding-top: 0px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .footer{
+        padding: 1rem 0 !important;
+    }
+
+    .contact-section{
+        padding-top: 2rem !important;
+    }
+
+    .total-logo img {
+        max-width: 280px !important;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .total-icone-funcionamento{
+        width: calc(50% - 10px);
+        margin: 5px;
+    }
+
+    .total-header{
+        padding-top: 0px;
+    }
+
+    .total-logo img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+
+    .masthead{
+        padding-top: 100px;
+    }
+
+    .botao-conhecer{
+        margin-top: 115px !important;
+        font-size: 22px !important;
+        padding: 12px 30px 12px 30px !important;
+    }
+
+}
+
+/*######### HOVERS / FOCUS ############*/
+
+.btn-primary:hover{
+    background-color: #f9f814 !important;
+    border-color: #f9f814 !important;
+}
+
+.btn-primary{
+    background-color: #f9f814 !important;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #ec9833 !important;
+    border-color: #ec9833 !important;
+    box-shadow: none !important;
+}
+
+a:hover {
+    color: #ec9833;
+    text-decoration: underline;
+}
+
+a:focus {
+    color: #ec9833;
+    text-decoration: underline;
+}
+
+.botao-agendar-header{
+    background-color: #f9f814;
+    padding: 8px 20px 5px 20px !important;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.total-botao-agendar-header{
+    padding-top: 25px;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.navbar-shrink .total-botao-agendar-header{
+    padding-top: 17px;
+}
+
+.navbar-shrink .total-botao-agendar-header a{
+    border: none !important;
+}
