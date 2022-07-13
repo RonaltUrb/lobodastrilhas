@@ -1,6 +1,6 @@
 <?php
 if(@$token=='h3h11432hbiu412'){
-	$url='';
+	$url='/';
 	$nomeCliente = 'Lobos da Trilhas';
 	$descricaoCliente = 'Lobos da Trilhas';
 	
